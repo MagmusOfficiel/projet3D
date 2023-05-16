@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import Model from './model';
+import Model from './Model';
 import CanvasContainer from './canvas-container';
 
 /**

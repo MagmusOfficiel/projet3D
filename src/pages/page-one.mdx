@@ -1,13 +1,35 @@
-<Flex gridArea="edge" gridRow="1" justify="center" align="center" ml={6}>
+<Flex gridArea="edge" gridRow="1"  >
   <Image
     w="100px"
     src="https://www.transparentpng.com/thumb/nike-logo/Blc12i-red-nike-logo-clipart-png-photos.png"
     alt="Red Nike Swoosh Logo"
   />
+  <Text paddingLeft="20" color="white" fontSize="2xl">
+    Nike
+  </Text>
+  <Text  paddingLeft="20" color="white" fontSize="2xl">
+    Nike
+  </Text>
+  <Text paddingLeft="20" color="white" fontSize="2xl">
+    Nike
+  </Text>
+  <Text paddingLeft="20" color="white" fontSize="2xl">
+    Nike
+  </Text>
 </Flex>
 
 <Flex
   gridArea="text"
+  justify="center"
+  direction="row"
+  h="100%"
+  maxH="500px"
+  w="100%"
+  borderRadius="lg"
+  bg="gray.100"
+  p={6}>
+<Flex
+  gridArea="text" 
   justify="center"
   direction="column"
   h="100%"
@@ -16,7 +38,7 @@
   p={6}
 >
   <Flex>
-    <Text color="brand.lightGrey" fontSize="6xl">
+    <Text color="brand.black" fontSize="6xl">
       <GlitchText>Air Jordan 1</GlitchText>
     </Text>
     <Basketball />
@@ -25,7 +47,7 @@
     <Text
       my={6}
       fontWeight={300}
-      color="brand.text"
+      color="brand.black"
       fontSize="xl"
       borderTop="solid 1px"
       pt={6}
@@ -37,37 +59,10 @@
       comportait que très peu de blanc (cette règle, connue sous le nom de "51
       %", a été abrogée à la fin des années 2000).
     </Text>
-    <Text
-      my={6}
-      fontWeight={300}
-      color="brand.text"
-      fontSize="xl"
-      borderBottom="solid 1px"
-      pb={6}
-    >
-      Après l'interdiction de la Nike Air Ship, Michael Jordan et Nike ont
-      introduit la Jordan I dans des coloris plus blancs, tels que les coloris
-      "Chicago" et "Black Toe". Ils ont utilisé l'interdiction de la Nike Air
-      Ship comme outil promotionnel dans leurs publicités, laissant entendre que
-      les chaussures offraient un avantage concurrentiel déloyal. La Air Jordan
-      I est sortie de 1985 à 1986, avec des rééditions (connues sous le nom de
-      "retros") en 1994, 2001-2004, et 2007 jusqu'à aujourd'hui. Avec
-      l'introduction de la gamme Air Jordan Retro, la marque a acquis une
-      notoriété nationale grâce à des collaborations avec des stars et à des
-      sorties limitées uniques.
-    </Text>
-    <Button color="black" background="white">Acheter</Button>
+    <Button color="white" background="black">Acheter</Button>
   </Box>
 </Flex>
-
-<Flex
-  gridArea="product"
-  justify="center"
-  direction="column"
-  h="100%"
-  position="relative"
->
-  <Product />
+  <Product/>
   <Box
     position="absolute"
     right="-15%"

@@ -10,12 +10,12 @@ const Container = styled.div`
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;k
+      width: 100%;
       height: 100%;
 
       left: 2px;
-      text-shadow: -1px 0 #d6d6d6;
-      background: #090d12;
+      text-shadow: -1px 0 #fffff;
+      background: #fffff;
 
       overflow: hidden;
       animation: noise-anim-2 5s infinite linear alternate-reverse;
@@ -30,7 +30,7 @@ const Container = styled.div`
       height: 100%;
 
       left: -2px;
-      text-shadow: -1px 0 #d6d6d6;
+      text-shadow: -1px 0 #fffff;
       background: #090d12;
       overflow: hidden;
       animation: noise-anim 1s infinite linear alternate-reverse;
